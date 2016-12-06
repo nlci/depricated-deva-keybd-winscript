@@ -1,5 +1,5 @@
 ﻿c Based on Blessy Jose's WinDevaU 1.002
-VERSION 5.0 C  This keyboard will work with Keyman 5.0
+store(&VERSION) '9.0'
 store(&NAME) 'WinScript DEVA'
 store(&BITMAP) 'WinScriptDEVA.bmp'
 HOTKEY   "^+D"
@@ -8,11 +8,12 @@ message "Devanagiri Phonetic Keyboard, can be distributed to Field Linguists"
 c Created  by Blessy Jolly Jose on 21/01/2002
 c Modified by Blessy Jolly Jose on 28/10/2002
 c Modified by benVar on 6th Dec 2016
+c Updated to Keyman Version 9
 
 CAPS ALWAYS OFF
 store(&ETHNOLOGUECODE) 'hin'
 store(&TARGETS) 'windows'
-store(&KEYBOARDVERSION) '1.003'
+store(&KEYBOARDVERSION) '1.004'
 store(&LANGUAGE) 'x0439'
 store(&WINDOWSLANGUAGES) 'x0439 x044E x0860 x0820'
 begin UNICODE > use(main)
