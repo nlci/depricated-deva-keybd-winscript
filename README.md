@@ -1,4 +1,4 @@
-#Winscript Devanagari Keyboard
+#WinScript Devanagari Keyboard
 
 This is the Keyman Unicode Keyboard for Devanagiri. This Keyboard works in the same way as it was working in Winscript. However since most users are familiar with InKey layout, we will modify this keyboard to match with WinScript InKey layout.
 
