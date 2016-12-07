@@ -18,6 +18,9 @@ store(&LANGUAGE) 'x0439'
 store(&WINDOWSLANGUAGES) 'x0439 x044E x0860 x0820'
 begin UNICODE > use(main)
 group (main) using keys  
+
+c We will not be using DeadKeys in the new version. So remove the following section and re-assign
+c the functionality as it is in the InKey layout.
 + [K_EQUAL] > deadkey(1)
 + 'X' > deadkey(2)  
 + 'f' > deadkey(3)
